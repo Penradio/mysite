@@ -1,23 +1,17 @@
 .Intro{
 color: #33ff33;
-padding: 20px;
 font-size: 14px;
 font-family: consolas;
 text-emphasis-style: sesame;
 text-decoration-color: #ff471a;
 opacity: 100%;
-padding-right: 300px;
 border-radius: 100%;
 
-margin: 60px;
-.x:hover{
-  backdrop-filter:blur(2px);
-}
 }
 .Intro marquee:hover {
   backdrop-filter: blur(20px);
   border-radius: 20px;
-  margin-left: 200px;
+
 }
 body{
   background-image: url("img/backg2.jpg");
@@ -53,7 +47,7 @@ border-radius: 20px;
 table, th, td {
 border-width: 60%;
 border-radius: 10px;
-padding: 5px;
+;
 }
 table {
 border-spacing: 15px;
