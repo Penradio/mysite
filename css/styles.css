@@ -1,5 +1,6 @@
 .Intro{
 background-image: url("img/1.png");
+background: none;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -10,14 +11,15 @@ font-size: 14px;
 font-family: consolas;
 text-emphasis-style: sesame;
 text-decoration-color: #ff471a;
-opacity: 90%;
+opacity: 100%;
 padding-right: 300px;
-border-radius: 40px;
+border-radius: 100%;
 
 margin: 60px;
 }
 .Intro marquee:hover {
-  background-image:radial-gradient(red,green,yellow);
+  backdrop-filter: blur(8px);
+  border-radius: 20px;
 }
 body{
   background-image: url("img/backg.jpg");
@@ -38,6 +40,7 @@ body{
 background-color: cyan;
 border-radius: 20px;
 font-family: monospace;
+backdrop-filter: blur(8px);
 }
 hr {
 border-color: rgba(255,255,255,0.4);
@@ -59,6 +62,7 @@ border-width: 10px;
 border-radius: 20px;
 }
 .Intro table:hover{
+  background-image: url("img/1.png");
   background-color: rgba(105, 111, 105, 0.6);
   opacity: 100%;
 }
@@ -83,5 +87,6 @@ opacity: 80%;
 border-radius: 30px;
 border-color: rgba(255, 0, 0, 0.5);
 border-width: thin;
+backdrop-filter: blur(20px);
 
 }
