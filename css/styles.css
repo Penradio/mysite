@@ -50,10 +50,9 @@ border-radius: 10px;
 ;
 }
 table {
-border-spacing: 15px;
 border-color: black;
-border-width: 10px;
 border-radius: 20px;
+
 }
 .Intro table:hover{
   background-image: url("img/1.png");
