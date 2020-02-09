@@ -16,6 +16,9 @@ border-radius: 40px;
 
 margin: 60px;
 }
+.Intro marquee:hover {
+  background-image:radial-gradient(red,green,yellow);
+}
 body{
   background-image: url("img/backg.jpg");
   background-position: center;
@@ -30,9 +33,7 @@ body{
   font-weight: lighter;
 
 }
-.Intro:hover {
-  background-color: red;
-}
+
 .Intro h1 p {
 background-color: cyan;
 border-radius: 20px;
@@ -57,9 +58,22 @@ border-color: black;
 border-width: 10px;
 border-radius: 20px;
 }
-table:hover{
-  background-color: gold;
+.Intro table:hover{
+  background-color: rgba(105, 111, 105, 0.6);
+  opacity: 100%;
 }
+.Table table:hover {
+  background-color: rgba(255, 215, 0, 0.8);
+}
+.Table tr:hover {
+  background-image: url("img/1.jpg");
+  font-weight: bold;
+  color: cropped;
+}
+.Table td:hover {
+  font-weight: bold;
+}
+
 .Table{
 background-image: url("img/table.gif");
 background-position: center;
