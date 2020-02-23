@@ -84,6 +84,8 @@ border-radius: 30px;
 border-color: rgba(255, 0, 0, 0.5);
 border-width: thin;
 backdrop-filter: blur(20px);
+position: relative;
+down: 30px;
 
 }
 .Table > div {
@@ -104,4 +106,24 @@ backdrop-filter: blur(20px);
 }
 .bottom-container {
   text-align: center;
+}
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.downarr img {
+    animation: blink 2s;
+    animation-iteration-count: infinite;
+}
+.downarr {
+  position: absolute;
+  text-align: center;
+  left: 45%;
 }
