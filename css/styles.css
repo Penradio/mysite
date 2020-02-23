@@ -14,7 +14,7 @@ margin: 60px;
 }
 
 body{
-  background-image: url("img/backg2.jpg");
+  background-image: url("img/backg3.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -25,6 +25,7 @@ body{
   font-variant-ligatures: normal;
   font-feature-settings: normal;
   font-weight: lighter;
+  backdrop-filter: blur(8px);
 
 
 }
@@ -55,7 +56,7 @@ border-width: 10px;
 border-radius: 20px;
 }
 .Intro table:hover{
-  background-image: url("img/1.png");
+  background-image: url("img/backg4.jpg");
   background-color: rgba(105, 111, 105, 0.6);
   opacity: 100%;
 }
