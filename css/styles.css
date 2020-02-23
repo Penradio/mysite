@@ -66,6 +66,7 @@ border-radius: 20px;
   background-image: url("img/1.jpg");
   font-weight: bold;
   color: cropped;
+
 }
 .Table td:hover {
   font-weight: bold;
@@ -82,4 +83,7 @@ border-color: rgba(255, 0, 0, 0.5);
 border-width: thin;
 backdrop-filter: blur(20px);
 
+}
+.tr1 {
+  background-image: linear-gradient(rgba(255,255,255,0.3),rgba(176,224,230,0.3),rgba(0, 0, 0, 0.3));
 }
