@@ -8,12 +8,12 @@
   <script type="text/javascript" src="file.js">
 
   </script>
-  <title>Nilesh</title>
+
   <link rel = "icon" type = "image/png" href= "css/img/favicon.png" />
   <link rel="stylesheet" href="css/styles.css">
   <link href="https://fonts.googleapis.com/css?family=Neuton&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158933494-1"></script>
   <script>
@@ -24,7 +24,7 @@
     gtag('config', 'UA-158933494-1');
   </script>
 
-
+<title>Nilesh</title>
 
 </head>
 
@@ -35,10 +35,10 @@
 <div class="Intro">
   <table>
     <tr>
-      <td><img class = "profilepic" src = "circle-cropped.png" alt = "Nilesh's Profile pic" style ="width:200px;height:200px;" /></td>
+      <td><img class = "profilepic" data-aos="zoom-in" src = "circle-cropped.png" alt = "Nilesh's Profile pic" style ="width:200px;height:200px;" /></td>
 
-    <td><h1 style="background-color: rgba(0,0,255,0.5);border-radius:10px;backdrop-filter: blur(8px);" >    Nilesh Kumar</h1>
-    <p style="background-color: rgba(0,0,255,0.5)">
+    <td><h1 data-aos="zoom-out"style="background-color: rgba(0,0,255,0.5);border-radius:10px;backdrop-filter: blur(8px);" >    Nilesh Kumar</h1>
+    <p data-aos="fade-right"style="background-color: rgba(0,0,255,0.5)">
               This is my very first web project.
     </p></td>
     </tr>
@@ -46,7 +46,7 @@
 
   </table>
 
-  <p style=" font-family: 'Cormorant Garamond', sans-serif; font-size: 22px; color: black;backdrop-filter:blur(20px);background-image:linear-gradient(rgba(255,255,255,0.3),rgba(176,224,230,0.3),rgba(0, 0, 0, 0.3)); ">
+  <p data-aos="linear" style=" font-family: 'Cormorant Garamond', sans-serif; font-size: 22px; color: black;backdrop-filter:blur(20px);background-image:linear-gradient(rgba(255,255,255,0.3),rgba(176,224,230,0.3),rgba(0, 0, 0, 0.3)); ">
 
 Hi, This is Nilesh.   A Computer Science Student, still learning to be a useful human being through some Web and App Projects.
 </p>
@@ -115,11 +115,18 @@ Hi, This is Nilesh.   A Computer Science Student, still learning to be a useful 
 </div>
 
 
-<div class="bottom-container" data-aos="fade-up">
+<div class="bottom-container" style = "margin-bottom: 6rem;">
   <a class="footer-link" href="https://www.linkedin.com/in/nilesh-kumar-b15203197/" target = "_top">LinkedIn</a>
   <a class="footer-link" href="https://twitter.com/">Twitter</a>
   <a class="footer-link" href="https://penradio.github.io/mysite/">Website</a>
 
 </div>
-
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    offset:400,
+    duration:1000
+  });
+</script>
+</body>
 </html>
