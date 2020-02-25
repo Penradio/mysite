@@ -6,13 +6,13 @@ padding: 20px;
 font-size: 14px;
 font-family: consolas;
 text-emphasis-style: sesame;
-text-decoration-color: #ff471a;
 opacity: 100%;
-border-radius: 100%;
-
 margin: 60px;
 }
-
+.Intro table {
+  text-align: center;
+  margin: 0 auto 0 auto;
+}
 body{
   background-image: url("img/backg3.jpg");
   background-position: center;
@@ -28,6 +28,9 @@ body{
   backdrop-filter: blur(8px);
 
 
+}
+p {
+  line-height: 2;
 }
 
 .Intro h1 p {
@@ -56,9 +59,7 @@ border-width: 10px;
 border-radius: 20px;
 }
 .Intro table:hover{
-  background-image: url("img/backg4.jpg");
-  background-color: rgba(105, 111, 105, 0.6);
-  opacity: 100%;
+  background-image:linear-gradient(rgba(255,255,255,0.3),rgba(176,224,230,0.3),rgba(0, 0, 0, 0.3));
 }
 
 .Table table:hover {
@@ -106,6 +107,9 @@ down: 30px;
 }
 .bottom-container {
   text-align: center;
+  font-family: font-family: 'Simonetta', sans-serif;
+  font-weight: bold;
+  font-size: 1.0rem;
 }
 @keyframes blink {
     0% {
@@ -126,5 +130,25 @@ down: 30px;
 .downarr {
   position: absolute;
   text-align: center;
-  left: 45%;
+  left: 43%
+}
+.para {
+  width: 50%;
+  margin: auto;
+  border-radius: 30px;
+}
+a {
+  color: rgba(150, 0, 0, 0.7);
+  background-filter: blur(9px);
+  background-image: linear-gradient(rgba(255,255,255,0.3),rgba(176,224,230,0.3),rgba(0, 0, 0, 0.3));
+  border-radius: 4px;
+  margin: 10px 20px;
+  font-size: 1rem;
+  text-decoration: none;
+}
+a:hover {
+  font-weight: bold;
+  font-size: 1.2rem;
+  font-family: 'Simonetta', sans-serif;
+  background-image: linear-gradient(rgba(0, 255, 0, 0.7),rgba(176,224,255,0.8),rgba(0, 0, 255, 0.5));
 }
