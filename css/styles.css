@@ -112,7 +112,7 @@ down: 30px;
   text-align: center;
   font-family: font-family: 'Simonetta', sans-serif;
   font-weight: bold;
-  font-size: 1.0rem;
+  font-size: 16px;
 }
 @keyframes blink {
     0% {
@@ -146,12 +146,12 @@ a {
   background-image: linear-gradient(rgba(255,255,255,0.3),rgba(176,224,230,0.3),rgba(0, 0, 0, 0.3));
   border-radius: 4px;
   margin: 10px 20px;
-  font-size: 1rem;
+  font-size: 16px;
   text-decoration: none;
 }
 a:hover {
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 16px;
   font-family: 'Simonetta', sans-serif;
   background-image: linear-gradient(rgba(0, 255, 0, 0.7),rgba(176,224,255,0.8),rgba(0, 0, 255, 0.5));
 }
