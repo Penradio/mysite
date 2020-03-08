@@ -7,12 +7,13 @@ font-size: 14px;
 font-family: consolas;
 text-emphasis-style: sesame;
 opacity: 100%;
-margin-top: 60px;
+margin-top: 100px;
 
 }
 .Intro table {
   text-align: center;
   margin: 0 auto 0 auto;
+
 }
 body{
   background-image: url("img/backg3.jpg");
@@ -33,6 +34,7 @@ body{
 
 }
 p {
+  margin: auto;
   line-height: 2;
 }
 
@@ -43,12 +45,11 @@ font-family: monospace;
 backdrop-filter: blur(8px);
 }
 hr {
-border-color: rgba(255,255,255,0.4);
-border-width: 10px;
-background-color: rgba(255,255,255,0.2);
-height: 30px;
-width: 95%;
-border-radius: 20px;
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 50px auto 50px auto;
+
 }
 table, th, td {
 border-width: 60%;
@@ -66,7 +67,8 @@ border-radius: 20px;
 }
 
 .Table table:hover {
-  background-color: rgba(255, 215, 0, 0.8);
+  background-color: rgba(0, 0, 215, 0.2);
+  background-image: url("img/backg3.jpg");
 }
 .Table tr:hover {
   background-image: url("img/1.jpg");
@@ -110,9 +112,9 @@ down: 30px;
 }
 .bottom-container {
   text-align: center;
-  font-family: font-family: 'Simonetta', sans-serif;
+  font-family: 'Simonetta', sans-serif;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 1.0rem;
 }
 @keyframes blink {
     0% {
@@ -137,7 +139,7 @@ down: 30px;
 }
 .para {
   width: 50%;
-  margin: auto;
+  margin: 100px auto 100px auto;
   border-radius: 30px;
 }
 a {
@@ -146,12 +148,16 @@ a {
   background-image: linear-gradient(rgba(255,255,255,0.3),rgba(176,224,230,0.3),rgba(0, 0, 0, 0.3));
   border-radius: 4px;
   margin: 10px 20px;
-  font-size: 16px;
+  font-size: 1rem;
   text-decoration: none;
 }
 a:hover {
   font-weight: bold;
-  font-size: 16px;
+  font-size: 1.2rem;
+  color: white;
   font-family: 'Simonetta', sans-serif;
-  background-image: linear-gradient(rgba(0, 255, 0, 0.7),rgba(176,224,255,0.8),rgba(0, 0, 255, 0.5));
+  background-image: linear-gradient(rgba(0, 0, 200, 0.5);rgba(0, 0, 255, 0.5));
+}
+.bottom-space {
+  height: 100px;
 }
