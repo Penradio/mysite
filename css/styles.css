@@ -141,27 +141,29 @@ down: 3rem;
 .downarr {
   position: absolute;
   text-align: center;
-  left: 43%
+  left: 43%;
 }
 .para {
-  width: 50%;
-  margin: 10rem auto 10rem auto;
+  margin-top:1rem;
+  margin-bottom:10rem;
   border-radius: 3rem;
+  text-align: center;
 }
 a {
-  color: rgba(150, 0, 0, 0.7);
-  background-image: linear-gradient(rgba(255,255,255,0.3),rgba(176,224,230,0.3),rgba(0, 0, 0, 0.3));
+  color: rgba(245, 213, 69, 0.7);
+  background-image: linear-gradient(rgba(13, 106, 212, 0.781),rgba(17, 120, 236, 0.795),rgba(243, 247, 19, 0.3));
   border-radius: 0.4rem;
   margin: 1rem 2rem;
   font-size: 1rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-decoration: none;
 }
 a:hover {
   font-weight: bold;
   font-size: 1.2rem;
   color: white;
-  font-family: 'Simonetta', sans-serif;
-  background-image: linear-gradient(rgba(0, 0, 200, 0.5);rgba(0, 0, 255, 0.5));
+  font-family: 'Simonetta', sans;
+  background-image: radial-gradient(rgba(221, 6, 17, 0.5),rgba(236, 160, 17, 0.685),rgba(69, 185, 147, 0));
 }
 .bottom-space {
   height: 7rem;
