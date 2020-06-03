@@ -2,12 +2,12 @@
 
 .Intro{
 color: #33ff33;
-padding: 20px;
-font-size: 14px;
+padding: 1rem;
+font-size: 1rem;
 font-family: consolas;
 text-emphasis-style: sesame;
 opacity: 100%;
-margin-top: 100px;
+margin-top: 5rem;
 
 }
 .Intro table {
@@ -40,27 +40,27 @@ p {
 
 .Intro h1 p {
 background-color: cyan;
-border-radius: 20px;
+border-radius: 2rem;
 font-family: monospace;
 backdrop-filter: blur(8px);
 }
 hr {
-  border: dotted #EAF6F6 6px;
+  border: dotted #EAF6F6 0.4rem;
   border-bottom: none;
   width: 4%;
-  margin: 50px auto 50px auto;
+  margin: 5rem auto 5rem auto;
 
 }
 table, th, td {
 border-width: 60%;
-border-radius: 10px;
-padding: 5px;
+border-radius: 1rem;
+padding: 0.5rem;
 }
 table {
-border-spacing: 15px;
+border-spacing: 0.5rem;
 border-color: black;
-border-width: 10px;
-border-radius: 20px;
+border-width: 1rem;
+border-radius: 1rem;
 }
 .Intro table:hover{
   background-image:linear-gradient(rgba(255,255,255,0.3),rgba(176,224,230,0.3),rgba(0, 0, 0, 0.3));
@@ -79,6 +79,9 @@ border-radius: 20px;
 .Table td:hover {
   font-weight: bold;
 }
+.Table td {
+  font-size: 1rem;
+}
 
 .Table{
 background-image: url("img/table.gif");
@@ -86,12 +89,12 @@ background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 opacity: 80%;
-border-radius: 30px;
+border-radius: 3rem;
 border-color: rgba(255, 0, 0, 0.5);
 border-width: thin;
 backdrop-filter: blur(20px);
 position: relative;
-down: 30px;
+down: 3rem;
 
 }
 .Table > div {
@@ -102,12 +105,15 @@ down: 30px;
 .tr1 {
   background-image: linear-gradient(rgba(255,255,255,0.3),rgba(176,224,230,0.3),rgba(0, 0, 0, 0.3));
 }
-@media (max-width: 700px) {
+@media only screen and (max-width: 600px) {
   .Table {
-    display: block;
+    display: -webkit-box;
   }
   .Intro {
     display: block;
+  }
+  .para {
+    width: 100%;
   }
 }
 .bottom-container {
@@ -139,15 +145,14 @@ down: 30px;
 }
 .para {
   width: 50%;
-  margin: 100px auto 100px auto;
-  border-radius: 30px;
+  margin: 10rem auto 10rem auto;
+  border-radius: 3rem;
 }
 a {
   color: rgba(150, 0, 0, 0.7);
-  background-filter: blur(9px);
   background-image: linear-gradient(rgba(255,255,255,0.3),rgba(176,224,230,0.3),rgba(0, 0, 0, 0.3));
-  border-radius: 4px;
-  margin: 10px 20px;
+  border-radius: 0.4rem;
+  margin: 1rem 2rem;
   font-size: 1rem;
   text-decoration: none;
 }
@@ -159,5 +164,5 @@ a:hover {
   background-image: linear-gradient(rgba(0, 0, 200, 0.5);rgba(0, 0, 255, 0.5));
 }
 .bottom-space {
-  height: 100px;
+  height: 7rem;
 }
